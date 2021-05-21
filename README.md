@@ -2,7 +2,7 @@
 
 ESLint Kit consists of many ESLint presets. They are designed to work with each other without any conflicts. In most cases you only need to specify `extends` and `parser` fields. ESLint Kit will take care of composing it.
 
-There are two basic presets - `patch` and `base`.
+There are 2 basic presets - `patch` and `base`.
 
 Almost every ESLint Kit preset has some plugins in its dependencies and uses them from there. Default ESLint module resolution behavior doesn't allow doing it this way. The `patch` preset fixes this problem. It uses [@rushstack/eslint-patch](https://github.com/microsoft/rushstack/tree/master/stack/eslint-patch) under the hood.
 

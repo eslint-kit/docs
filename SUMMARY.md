@@ -1,6 +1,6 @@
 # Table of contents
 
-* [How does it work](README.md)
+* [How does it work?](README.md)
 * [Getting started](getting-started.md)
 
 ## CLI

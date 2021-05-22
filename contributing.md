@@ -4,7 +4,13 @@
 
 The documentation is linked to [eslint-kit/docs](https://github.com/eslint-kit/docs) repo.
 
-Just fork it and send a PR.
+Steps to contribute:
+
+* Fork the repo.
+* _\(optional\)_ Checkout to a new branch.
+* Make changes, commit them.
+* `git push` to your fork.
+* Create a pull request into the main repo.
 
 ## CLI / Presets
 

@@ -24,6 +24,10 @@
   * [prettier](config/presets/prettier.md)
 * [Parsers](config/parsers.md)
 
+## Recipes
+
+* [Monorepo](recipes/monorepo.md)
+
 ---
 
 * [Common issues](common-issues.md)

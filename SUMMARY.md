@@ -31,4 +31,5 @@
 ---
 
 * [Common issues](common-issues.md)
+* [Contributing](contributing.md)
 

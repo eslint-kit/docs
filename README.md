@@ -1,6 +1,6 @@
 # How does it work?
 
-ESLint Kit consists of many ESLint presets. They are designed to work with each other without any conflicts. In most cases you only need to specify `extends` and `parser` fields. ESLint Kit will take care of composing it.
+ESLint Kit consists of many ESLint presets. They are designed to work with each other without any conflicts. In most cases you only need to specify `extends` and `parser` fields. ESLint Kit will take care of composing it
 
 There are two basic presets - `patch` and `base`.
 

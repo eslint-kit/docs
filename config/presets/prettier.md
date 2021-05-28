@@ -6,7 +6,7 @@
 $ yarn add -D @eslint-kit/eslint-config-prettier
 ```
 
-## When to use?
+## When to use it?
 
 Use it if you want to format your code using `prettier`.
 

@@ -6,7 +6,7 @@
 $ yarn add -D @eslint-kit/eslint-config-react
 ```
 
-## When to use?
+## When to use it?
 
 Use it with React.
 

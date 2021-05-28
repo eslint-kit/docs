@@ -12,7 +12,7 @@ Navigate to the root of your project and use:
 $ npx @eslint-kit/cli
 ```
 
-Then just follow the prompts.
+Then follow the prompts.
 
 
 

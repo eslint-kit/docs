@@ -6,9 +6,9 @@
 $ yarn add -D @eslint-kit/eslint-config-node
 ```
 
-## When to use?
+## When to use it?
 
-The config just enables the `node` env.
+The config enables the `node` env.
 
-Use it when your code is executed with access to Node global environment \(`process`, `module`, etc\).
+Use it when your code is executed with access to Node global environment \(`process`, `module`, etc.\).
 

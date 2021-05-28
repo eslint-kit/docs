@@ -6,7 +6,7 @@
 $ yarn add -D @eslint-kit/eslint-config-react-new-jsx-transform
 ```
 
-## When to use?
+## When to use it?
 
 Use it when you don't need to import React when using JSX.
 

@@ -91,9 +91,9 @@ info Disk size with transitive dependencies: "12.97MB"
 info Number of shared dependencies: 43
 ```
 
-In that case, the problem is Gatsby. And as you see in second `=> Found` line, `@eslint-kit` currently uses `2.22.1` version of `eslint-plugin-import` \(this is just an example - use the version from your output\).
+In that case, the problem is Gatsby. And as you see in the second `=> Found` line, `@eslint-kit` currently uses `2.22.1` version of `eslint-plugin-import` \(this is just an example - use the version from your output\).
 
-With information above, we can fix the issue using yarn `resolutions`. Add the following in your `package.json`:
+With the information above, we can fix the issue using yarn `resolutions`. Add the following in your `package.json`:
 
 {% code title="package.json" %}
 ```text

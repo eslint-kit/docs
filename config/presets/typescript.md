@@ -6,7 +6,7 @@
 $ yarn add -D @eslint-kit/eslint-config-typescript
 ```
 
-## When to use?
+## When to use it?
 
 Use it with TypeScript.
 

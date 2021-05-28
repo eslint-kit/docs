@@ -1,6 +1,6 @@
 # How does it work?
 
-ESLint Kit consists of many ESLint presets. They are designed to work with each other without any conflicts. In most cases you only need to specify `extends` and `parser` fields. ESLint Kit will take care of composing it.
+ESLint Kit consists of many ESLint presets. They are designed to work with each other without any conflicts. In most cases, you only need to specify `extends` and `parser` fields. ESLint Kit will take care of composing it.
 
 There are two basic presets - `patch` and `base`.
 
@@ -8,7 +8,7 @@ Almost every ESLint Kit preset has some plugins in its dependencies and uses the
 
 The `base` preset encapsulates some base plugins and rules. It is required for using other ESLint Kit presets.
 
-The other presets is optional, select them depending on your goals and project stack.
+The other presets are optional. Select them depending on your goals and project stack.
 
 For example, the config for React + TypeScript project:
 

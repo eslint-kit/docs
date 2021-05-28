@@ -47,7 +47,7 @@ There are three ways of using ESLint:
 
 * Install in the `root`, use the same config everywhere
 * Install in the specific package \(`first`, `second`\), use only there
-* Install the common config in the `root`, and specific configs in `first` and/or `second`
+* Install the common config in the `root` and specific configs in `first` and/or `second`
 
 ## Installation in root
 

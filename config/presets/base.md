@@ -6,7 +6,7 @@
 $ yarn add -D @eslint-kit/eslint-config-base
 ```
 
-## When to use?
+## When to use it?
 
 Always use this preset.
 

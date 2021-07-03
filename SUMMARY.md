@@ -7,6 +7,7 @@
 
 * [Commands](cli/commands/README.md)
   * [config](cli/commands/config.md)
+  * [upgrade](cli/commands/upgrade.md)
   * [alias](cli/commands/alias.md)
   * [check](cli/commands/check.md)
 * [Shared options](cli/shared-options/README.md)

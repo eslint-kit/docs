@@ -13,6 +13,7 @@ Use it if you want to format your code using `prettier`.
 ## Included plugins
 
 * `eslint-plugin-prettier`
+* `@trivago/prettier-plugin-sort-imports` \(for sorting imports\)
 
 ## Rules
 

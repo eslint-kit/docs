@@ -1,6 +1,6 @@
 # alias
 
-Set up aliases for ESLint `import` plugin.
+Set up aliases for ESLint `import` plugin and Prettier `sort-imports` plugin.
 
 You will be prompted to enter them in JSON format.
 

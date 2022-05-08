@@ -5,10 +5,9 @@ Check your project's dependencies for compatibility with `@eslint-kit` and fix t
 ## Usage
 
 ```bash
-$ npx @eslint-kit/cli check
+$ npx @eslint-kit/cli@latest check
 ```
 
 ## Options
 
 Accepts all [shared options](../shared-options/).
-

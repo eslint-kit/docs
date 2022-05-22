@@ -1,40 +1,15 @@
-# How does it work?
+# Check out the new version of ESLint Kit
 
-ESLint Kit consists of many ESLint presets. They are designed to work with each other without any conflicts. In most cases, you only need to specify `extends` and `parser` fields. ESLint Kit will take care of composing it.
+[The new ESLint Kit is released!](https://github.com/eslint-kit/eslint-kit)
 
-There are two basic presets - `patch` and `base`.
+The new version has solved a lot of problems:
 
-Almost every ESLint Kit preset has some plugins in its dependencies and uses them from there. Default ESLint module resolution behavior doesn't allow doing it this way. The `patch` preset fixes this problem. It uses [@rushstack/eslint-patch](https://github.com/microsoft/rushstack/tree/master/stack/eslint-patch) under the hood.
-
-The `base` preset encapsulates some base plugins and rules. It is required for using other ESLint Kit presets.
-
-The other presets are optional. Select them depending on your goals and project stack.
-
-For example, the config for React + TypeScript project:
-
-{% code title=".eslintrc" %}
-```javascript
-{
-  "extends": [
-    "@eslint-kit/patch",
-    "@eslint-kit/base",
-    "@eslint-kit/typescript",
-    "@eslint-kit/react",
-    "@eslint-kit/prettier"
-  ],
-  "parser": "@typescript-eslint/parser"
-}
-```
-{% endcode %}
-
-It requires the following dependencies:
-
-* `eslint` 
-* `prettier`
-* `@typescript-eslint/parser` 
-* `@eslint-kit/eslint-config-patch`
-* `@eslint-kit/eslint-config-base` 
-* `@eslint-kit/eslint-config-prettier` 
-* `@eslint-kit/eslint-config-react` 
-* `@eslint-kit/eslint-config-typescript`
-
+* You don't need `@eslint-kit/cli` anymore:
+  * Only **one** dependency. No `eslint`, no `prettier`, no plugins, parsers, resolvers and so on.
+  * Blazingly fast setup. Just install `@eslint-kit/configure`, create `.eslintrc.js` and select presets you need.
+  * Very short syntax, including alises setup.
+  * The order of preset calls is no longer matter
+* ESLint v8 and new versions of everything
+* A lot of presets, including `vue`, `solid`, `svelte`, `nest.js` and other technologies
+* Automatic updates for `typescript` preset - no warnings in console
+* Better version control

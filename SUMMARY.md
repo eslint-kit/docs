@@ -1,6 +1,7 @@
 # Table of contents
 
-* [How does it work?](README.md)
+* [Check out the new version of ESLint Kit](README.md)
+* [How does it work?](<README (1).md>)
 * [Getting started](getting-started.md)
 
 ## CLI
@@ -11,7 +12,7 @@
   * [alias](cli/commands/alias.md)
   * [check](cli/commands/check.md)
 * [Shared options](cli/shared-options/README.md)
-  * [-W, --workspace &lt;name&gt;](cli/shared-options/w-workspace-less-than-name-greater-than.md)
+  * [-W, --workspace \<name>](cli/shared-options/w-workspace-less-than-name-greater-than.md)
 
 ## Config
 
@@ -29,8 +30,7 @@
 
 * [Monorepo](recipes/monorepo.md)
 
----
+***
 
 * [Common issues](common-issues.md)
 * [Contributing](contributing.md)
-
